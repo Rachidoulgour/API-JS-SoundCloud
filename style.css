@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    
+}
+header{
+    background-color: orangered;
+}
+h1{
+    color: #ffffff;
+    padding: .5rem 1rem;
+    text-align: center;
+}
+main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+form{
+    margin: 1rem;
+}
+input{
+    all: unset;
+    border: solid .05rem grey;
+    padding: .3rem;
+}
+button{
+    all: unset;
+    color: #ffffff;
+    background-color: orangered;
+    padding: .3rem 1rem;
+}
+button:hover{
+    background-color: rgb(245, 158, 126);
+    transition: .3s ease;
+}
+.resultado{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.resultado img{
+    margin: .5rem;
+}
+.drop-here{
+    margin: 1rem;
+}
+.dropping{
+    width: 10rem;
+    height: 10rem;
+    border: solid .05rem #464545;
+    margin: 1rem;
+}
+.dropping img {
+    width: 10rem;
+    height: 10rem;
+}
